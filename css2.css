@@ -1,0 +1,52 @@
+/* Style général de la page */
+body {
+    background-color: pink; /* Ta couleur préférée */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    color: #333;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+/* Style du bouton d'inscription */
+.btn-inscription {
+    display: inline-block;
+    background-color: white;
+    color: #ff69b4; /* Rose plus foncé */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.btn-inscription:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+/* Liste des articles */
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espace entre les liens */
+    align-items: center;
+}
+
+.articles-list a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.articles-list a:hover {
+    color: black;
+    text-decoration: underline;
+}
